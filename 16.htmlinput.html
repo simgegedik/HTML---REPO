@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 5 FORMS VE  INPUTS</title>
+</head>
+<body>
+        <form action="islemler.php" method="post">
+        <!-- Action ile backenddeki dosyanızı gösterebilirsiniz Metod ileyapacağınız işlemin türü seçilebilir -->
+        <label for="Name">Name : </label>
+        <input type="text" id="Name" name="name"><br>
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" class="email">
+        <label for="password">Password: </label>
+        <input type="password"  id="password" name="password">
+        <label for="date">Date : </label>
+        <input type="date" id="date" name="date">
+
+        Gender <br>
+        Male 
+        <input type="radio" name="gender" value="Male" >
+        Female
+        <input type="radio" name="gender" value="Female">
+        Other
+        <input type="radio" name="gender" value ="Other" checked>
+
+        Hobbies <br>
+        Technology
+        <input type="checkbox" name="Tech" id="Tech">
+        Music
+        <input type="checkbox" name="Music" id ="Music">
+        Art
+        <input type="checkbox" name="Art" id="Art">
+
+        Degree <br>
+        <input type="image" name="tel" src="" > 
+         <!-- Picture box gibi image eklenebiliyor -->
+         <select name="degree" id="artt" class="trss">
+         <option value="Bachelor">Lisans</option>
+         <option value="Master">Yüksek Lisans</option>
+         <option value="High Scholl">Lise</option>
+         <option value="Primary Scholl">İlkokul</option>
+
+
+         </select>
+           
+           <textarea name="Adres" id="adres" cols="20" rows="10" placeholder="Adres bilgisini giriniz :"></textarea> <br>
+         
+           <button type="submit">Gönder</button>
+           
+           <input type="submit" value="Submit">
+           <input type="reset" value="Sifirla">
+
+
+
+
+
+
+
+    </form>
+
+
+
+
+
+
+</body>
+</html>
